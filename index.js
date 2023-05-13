@@ -40,7 +40,6 @@ rl.question(
             fetch(URL, OPTIONS)
             .then(res => res.json())
             .then(data => {
-                    console.log(data)
                     if (!data.error) {
                         data.choices.forEach((choice, ind) => {
                             data.choices.length > 1 ?
