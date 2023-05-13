@@ -1,0 +1,24 @@
+{
+  "name": "gpt_cli",
+  "version": "1.0.0",
+  "description": "cli tool for gpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gavin-Barham/gpt_cli.git"
+  },
+  "author": "Gavin Barham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gavin-Barham/gpt_cli/issues"
+  },
+  "homepage": "https://github.com/Gavin-Barham/gpt_cli#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "readline": "^1.3.0"
+  }
+}
